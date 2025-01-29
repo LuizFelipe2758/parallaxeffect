@@ -1,13 +1,10 @@
 *{
-    padding: opx;
-    margin: opx;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
-
 
 html,body{
     min-height: 100vh;
-    min-width: 100vh;
     background-color: black;
     background: url('https://images.unsplash.com/photo-1610116306796-6fea9f4fae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGl2cm9zfGVufDB8fDB8fHww');
     background-size: cover;
@@ -17,40 +14,51 @@ html,body{
 
 
 header{
-      padding-top: 10px;
-      padding-bottom: 10px;
+      min-width: 320px;
+      padding-top: 40px;
+      padding-bottom: 40px;
       background-color: burlywood;
       text-align: center;
       color: rgb(143, 86, 13);
       font-family: 'Courier New', Courier, monospace;   
+      font-size: 2vh;
 }
 
 
-
 p a{
-    color: rgb(80, 47, 4);
+    color:rgb(0, 0, 0);
     text-decoration: none;
 }
 
 
-a :hover{
+p a:hover{
     text-decoration: underline;
 }
 
 
+section{
+    min-width: 320px;
+}
+
+
 .normal{
-    width: 400px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     background-color: rgb(238, 218, 193);
     color:rgb(170, 75, 11);
     font-family: 'Courier New', Courier , monospace;
+    font-size: 2vh;
 }
 
 
 .parallax{
+    background-color:rgba(0, 0, 0, 0.432);
+    width: 350px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     color: rgb(255, 255, 255);;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 2vh;
 }
 
 
